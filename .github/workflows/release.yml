@@ -22,7 +22,6 @@ jobs:
     uses: reactiveui/actions-common/.github/workflows/workflow-common-release.yml@main
     with:
       solutionFile: System.Reactive.Wasm.sln
-      versioningTool: minver
       minverMinimumMajorMinor: '3.1'
       bump: ${{ inputs.bump }}
     secrets:
